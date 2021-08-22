@@ -8,7 +8,7 @@ from rich.theme import Theme
 from rich.progress import track
 from rich.console import Console
 
-custom_theme = Theme({'valido':'italic green','error':'italic red','humano':'blue','pc':'#F0882D'})
+custom_theme = Theme({'valido':'italic green','error':'italic red','humano':'#3887E1','pc':'#F0882D'})
 console = Console(theme=custom_theme)
 
 def validacion_ingreso():
