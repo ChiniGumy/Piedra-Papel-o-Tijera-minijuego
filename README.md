@@ -1,14 +1,31 @@
-# v2.0 Notas de Parche
+# v3.0 Notas de Parche
 
-**\+** El juego pregunta si quieres volver a jugar.
-+ Esto permite al usuario poner un "y" para aceptar y volver a jugar y un "n" para no volver a jugar y cerrar el juego.
+**\+** Mejoramos el apartado visual y arreglamos algunos saltos de linea.
 
-**\+** Validaciones de ingresos
+**\+** Agregamos contadores de victorias del usuario y de la pc.
 
-+ En vista de que habian graciositos que cuando pedian el ingreso de la opcion, ingresaban caracteres o numeros que se sobrepasaban
-    implementamos las validaciones de ingreso en:
+**\+** Agregamos colores a los textos mostrados:
 
-        ingresar opcion (piedra, papel o tijera)
-        ingresar y/n (para seguir el programa o no)
+- implementando colores a los textos, dependiendo de lo que pasa, por ejemplo, mostramos de color rojo los textos que indican algun error:
 
-**\-** Restamos bugs
+    - <span style = "color:#FF3333"> al parecer escribiste mal la opcion.. </span>
+
+    - <span style = "color:#FF3333"> caracter invalido, porfavor ingresar de nuevo </span>
+
+    - <span style = "color:#FF3333"> perdiste! <span>
+
+- para algo que concluyo exitosamente:
+
+    - <span style = "color:#009900"> ganaste! <span>
+
+    -  desea jugar de nuevo? <span style = "color:#009900">y<span><span style = 'color:#FFFFFF'>/<span><span style = "color:#FF3333">n.. </span>
+
+
+
+- y tambien para palabras claves como las opciones del usuario y opciones de la pc.
+
+    - seleccionaste: <span style = "color:#3887E1"> tijera </span>
+
+    - seleccion de la pc: <span style = "color:#F0882D"> papel <span> 
+
+**\-** Restamos bugs.
